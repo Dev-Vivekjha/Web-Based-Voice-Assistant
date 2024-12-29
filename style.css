@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(191,195,198,255);
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+#logo {
+    width: 20vw;
+    box-shadow: 2px 2px 10px rgba(191,195,198,255);
+    border: none;
+}
+
+h1 {
+    color: black;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+#name {
+    color: rgb(88, 129, 196);
+    font-size: 45px;
+}
+
+#va {
+    color: rgb(101, 23, 130);
+    font-size: 45px;
+}
+
+#voice {
+    width: 150px;
+    display: none;
+}
+
+#btn {
+    width: 30%;
+    background: linear-gradient(to right, rgb(88, 129, 196), rgb(101, 23, 130));
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 2px 2px 10px rgb(88, 129, 196), 2px 2px 10px rgb(101, 23, 130);
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#btn:hover {
+    box-shadow: 2px 2px 20px rgb(88, 129, 196), 2px 2px 20px rgb(101, 23, 130);
+    letter-spacing: 2px;
+}
